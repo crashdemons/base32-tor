@@ -1,3 +1,4 @@
+#include <stddef.h>
 // converts src[0:slen] to base32 string
 char *base32_to(char *dst,const u8 *src,size_t slen);
 // calculates length needed to store data converted to base32
